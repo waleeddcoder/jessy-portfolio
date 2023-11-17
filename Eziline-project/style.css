@@ -188,7 +188,16 @@ body {
 
 .drop-down-menu li a {
     text-decoration: none;
+    transition: color 0.3s ease, text-shadow 0.3s ease, letter-spacing 0.3s ease;
 }
+
+.drop-down-menu li a:hover {
+    color: #DFB61D;
+    font-weight: bolder;
+    text-shadow: 0 0 3px #DFB61D;
+    letter-spacing: 1px;
+}
+
 
 .drop-down-menu li a i {
     font-size: 1.3rem;
